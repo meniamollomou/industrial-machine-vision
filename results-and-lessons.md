@@ -2,7 +2,7 @@
 
 **Project:** Industrial Machine Vision & Automated Inspection Software  
 **Organization:** ABW Technologies, Malaysia  
-**Role:** Machine Vision / Software Engineering Intern | 2026
+**Role:** Machine Vision / R&D Software Engineering Intern | 2026
 
 > **Scope:** This reflection covers selected contributions to an existing, collaboratively developed industrial inspection application. It is based on my development notes and code-history review. It does not disclose employer code, customer information, production settings, or confidential performance data.
 
