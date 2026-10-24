@@ -10,20 +10,9 @@
 
 The application coordinated several responsibilities that must remain consistent during an inspection: acquiring an image, initiating inspection work, associating results with the correct request, presenting information for operator review, and determining the final execution outcome.
 
-```mermaid
-flowchart TD
-    UI[Operator Interface] --> CTRL[Application / Cycle Coordination]
-    CTRL --> ACQ[Image Acquisition]
-    ACQ --> IMG[Image + Request Context]
-    IMG --> EXEC[Asynchronous Inspection Execution]
-    EXEC --> RES[Result Correlation & Validation]
-    RES --> REVIEW[Review / Verification]
-    REVIEW --> FINAL[Final Cycle Outcome]
-    FINAL --> UI
-    CTRL -. readiness and error state .-> UI
-```
+![Conceptual Industrial Inspection Software Architecture](diagrams/software-architecture.svg)
 
-*Figure 1. Conceptual software workflow; not a company architecture diagram.*
+*Figure 1. Conceptual architecture showing the relationship between the operator interface, image acquisition, inspection execution, and result management.*
 
 ## 2. Architectural responsibilities
 
@@ -49,6 +38,10 @@ A camera can be discovered or connected without being ready to provide a valid, 
 
 Background work may finish after the interface or production coordinator has advanced. A completion must be checked against the active station, image, and request context before its result is accepted. This protects the integrity of later inspection cycles.
 
+![Asynchronous Inspection Result Validation](diagrams/asynchronous-result-validation.svg)
+
+*Figure 2. Generalized validation of asynchronous inspection results, including matching requests and rejecting stale or mismatched completions.*
+
 ### Inspection findings versus execution errors
 
 A detected defect is an inspection outcome; an exception, missing result, or failed execution is a different category of event. Operator review can address reviewable findings, but it should not convert an execution error into a successful machine outcome.
@@ -64,6 +57,10 @@ A detected defect is an inspection outcome; an exception, missing result, or fai
 7. The interface presents the outcome and returns to an appropriate next state.
 
 This sequence illustrates engineering principles; actual customer workflows may differ.
+
+![Production Inspection Cycle and Verification](diagrams/production-cycle-verification.svg)
+
+*Figure 3. Generalized production inspection cycle, including readiness checks, result validation, operator verification, and final outcomes.*
 
 ## 5. My contribution within the architecture
 
