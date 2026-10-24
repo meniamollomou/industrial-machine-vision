@@ -54,6 +54,16 @@ This internship bridged academic programming and real-world industrial engineeri
 
 This repository is an **experience case study**, not a release of ABW Technologies' software. It contains no proprietary source code, customer information, internal inspection recipes, factory images, or production data. The descriptions are generalized; they do not claim sole ownership of a complete industrial inspection system.
 
-## Next steps
 
-I plan to add a separate, fully original Python computer-vision demonstration using public or synthetic images. It will be clearly labeled as an independent portfolio exercise, not company code.
+### C# WPF and Hikrobot DLL Integration
+
+During the initial phase of the industrial inspection software development, I worked with C# and Windows Presentation Foundation (WPF) to develop inspection-related user interfaces using Hikrobot DLLs.
+
+My exposure included:
+
+- Developing and modifying inspection interface components.
+- Working with Hikrobot DLLs within a C# WPF environment.
+- Supporting inspection result visualization and verification.
+- Understanding how machine vision functionality connects with desktop software.
+
+This experience helped me understand the integration between industrial vision tools and desktop applications before continuing my work with Python and PySide6.
