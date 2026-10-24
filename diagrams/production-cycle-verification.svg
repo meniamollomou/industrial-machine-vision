@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="820" viewBox="0 0 1100 820" role="img" aria-label="Production Cycle and Verification">
+<rect width="1100" height="820" fill="#f8fafc"/>
+<text x="550" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="bold" fill="#0f172a">Production Cycle and Verification</text>
+<text x="550" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#64748b">Independent conceptual illustration — not an employer system diagram</text>
+<rect x="190" y="132" width="720" height="91" rx="14" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+<text x="550" y="167" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#0f172a">Preflight</text>
+<text x="550" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#334155">Check required stations and readiness</text>
+<path d="M550 223 V251" stroke="#475569" stroke-width="3"/>
+<path d="M543 244 L550 252 L557 244" fill="none" stroke="#475569" stroke-width="3"/>
+<rect x="190" y="259" width="720" height="91" rx="14" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+<text x="550" y="294" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#0f172a">Execute Cycle</text>
+<text x="550" y="324" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#334155">Dispatch station inspections</text>
+<path d="M550 350 V378" stroke="#475569" stroke-width="3"/>
+<path d="M543 371 L550 379 L557 371" fill="none" stroke="#475569" stroke-width="3"/>
+<rect x="190" y="386" width="720" height="91" rx="14" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+<text x="550" y="421" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#0f172a">Collect Results</text>
+<text x="550" y="451" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#334155">Guard against duplicates and stale callbacks</text>
+<path d="M550 477 V505" stroke="#475569" stroke-width="3"/>
+<path d="M543 498 L550 506 L557 498" fill="none" stroke="#475569" stroke-width="3"/>
+<rect x="190" y="513" width="720" height="91" rx="14" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+<text x="550" y="548" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#0f172a">Review Findings</text>
+<text x="550" y="578" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#334155">Separate defect review from execution errors</text>
+<path d="M550 604 V632" stroke="#475569" stroke-width="3"/>
+<path d="M543 625 L550 633 L557 625" fill="none" stroke="#475569" stroke-width="3"/>
+<rect x="190" y="640" width="720" height="91" rx="14" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+<text x="550" y="675" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#0f172a">Finalize Outcome</text>
+<text x="550" y="705" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#334155">PASS / FAIL / ERROR with error precedence</text>
+</svg>
